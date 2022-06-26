@@ -27,6 +27,7 @@ const Home = () => {
         movies.map((movie) => (
           <Movie
             key={movie.movieCd}
+            id={movie.movieCd}
             name={movie.movieNm}
             englishName={movie.movieNmEn}
           />
